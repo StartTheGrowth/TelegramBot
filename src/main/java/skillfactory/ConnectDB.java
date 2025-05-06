@@ -6,7 +6,7 @@ import lombok.Setter;
 import java.sql.*;
 
 public class ConnectDB {
-    private static final String URL = "jdbc:postgresql://localhost/postgres?user=postgres&password=29111983";
+    private static final String URL = "jdbc:postgresql://localhost/postgres?user=postgres&password=";
     private static String connectionSuccessfull = "connect to database";
     private Connection connection;
     public ConnectDB(){
